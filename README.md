@@ -1,16 +1,49 @@
 # phen
 
-Под феном
+"phen" - это мобильное клиентское приложение для салона "Под феном" с поддержкой чат-бота "Маша" в популярном месенджере Телеграмм, который обеспечивает связь между клиентами и персоналом, а также консультирует клиента
 
-## Getting Started
+## Связанные проекты
+[Телеграмм-бот](https://github.com/kutsyfugaputik/masha_bot_for_phen)
 
-This project is a starting point for a Flutter application.
+## Как запустить проект?
+1. Склонируйте репозиторий
+  
+   git clone https://github.com/kutsyfugaputik/phen
+   cd <название директории с проектом>
+   
+2. Установите зависимости
+   Убедитесь, что у вас установлен Flutter. Если нет, скачайте и установите его с официального сайта [Flutter](https://flutter.dev).
 
-A few resources to get you started if this is your first Flutter project:
+   Далее выполните команду для установки всех необходимых зависимостей:
+  
+   flutter pub get
+   
+3. Запустите проект
+   Убедитесь, что подключено устройство (эмулятор или физическое устройство) для запуска проекта.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   Выполните команду для сборки и запуска приложения:
+  
+   flutter run
+   
+### Дополнительные шаги
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Настройка эмулятора
+  Если у вас нет настроенного эмулятора, вы можете использовать Android Studio или Visual Studio Code для его настройки. Убедитесь, что эмулятор запущен перед выполнением команды flutter run.
+
+- Отладка
+  Если необходимо отлаживать приложение, вы можете использовать встроенные инструменты в IDE (Android Studio или Visual Studio Code) или запустить отладку через командную строку:
+ 
+  flutter run --debug
+  
+Эти шаги помогут вам быстро запустить проект Flutter из репозитория. Если возникнут вопросы или ошибки, обратитесь к документации Flutter или проверьте конфигурацию вашего окружения.
+
+## Ссылки использующиеся во время разработки
+Кастомизация — что это такое и как создать индивидуальный продукт: [Электронный ресурс Интернет](https://zvonobot.ru/blog/kastomizatsiya-chto-eto-takoe-i-kak-sozdat-individualnyy-produkt)
+
+FULL Flutter Beginner Course • Programming Basics / Widgets / Navigation / User Input / UI [Электронный ресурс Интернет](https://www.youtube.com/@createdbykoko)
+
+Flutter documentation [Электронный ресурс Интернет](https://docs.flutter.dev/)
+
+Как добавить Isar в проект на Flutter [Электронный ресурс Интернет](https://habr.com/ru/articles/673068/ )
+
+Создание приложений для салонов красоты [Электронный ресурс Интернет](https://livetyping.com/ru/sozdanie-prilozheniya-dlya-salonov-krasoty)
