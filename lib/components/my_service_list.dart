@@ -9,21 +9,21 @@ class MyServList extends StatelessWidget {
   final Service service;
 
   MyServList({Key? key, required this.service}) : super(key: key);
-
+//для отслеживания даты и времени выбранным клиентом
    DateTime _selectedDate = DateTime.now(); 
   TimeOfDay _selectedTime = TimeOfDay.now(); 
 
   void _selectDateAndTime(BuildContext context) async { 
     DateTime? pickedDate; 
     TimeOfDay? pickedTime; 
-
+//вызываем виджет Календаря
     pickedDate = await showDatePicker( 
       context: context, 
       initialDate: _selectedDate, 
       firstDate: DateTime.now(), 
       lastDate: DateTime(2100), 
     ); 
-
+//вызываем виджет Часов
     if (pickedDate != null) { 
       pickedTime = await showTimePicker( 
         context: context, 

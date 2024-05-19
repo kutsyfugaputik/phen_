@@ -14,7 +14,7 @@ class Service {
       required this.id_specialis,
       required this.imagePath});
 }
-
+// готовый список(в будущем изменится) 
 List<Service> servs = [
   Service(
       id: 1, name_ser: 'Женская стрижка', price: 600, time: 1, id_specialis: 3, imagePath:'assets/women.jpg'),

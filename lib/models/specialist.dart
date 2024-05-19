@@ -16,7 +16,7 @@ class Specialist {
       required this.info,
       required this.imgs});
 }
-
+// готовый список(в будущем изменится) 
 List<Specialist> specs = [
   Specialist(
       id: 0,

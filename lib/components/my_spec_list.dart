@@ -10,6 +10,8 @@ class MySpecList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    //картинка
     return Container(
       decoration: BoxDecoration(
         color: Theme.of(context).colorScheme.primary,
@@ -31,6 +33,8 @@ class MySpecList extends StatelessWidget {
               margin: const EdgeInsets.all(50),
             ),
             SizedBox(height: 10),
+
+            //Фамилия персонала
             Text(
               specialist.firstName,
               style: TextStyle(
@@ -40,6 +44,7 @@ class MySpecList extends StatelessWidget {
               ),
               textAlign: TextAlign.center,
             ),
+            //Имя персонала
             Text(
               specialist.name,
               style: TextStyle(
@@ -49,6 +54,7 @@ class MySpecList extends StatelessWidget {
               ),
               textAlign: TextAlign.center,
             ),
+            //Отчество
             Text(
               specialist.fatherName,
               style: TextStyle(
@@ -59,6 +65,7 @@ class MySpecList extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             SizedBox(height: 10),
+            //Стаж
             Text(
               'Стаж: ' + specialist.stage.toString() + ' год/лет',
               style: TextStyle(
@@ -67,6 +74,7 @@ class MySpecList extends StatelessWidget {
                 fontFamily: Provider.of<SettingApp>(context).selectedFontFamily,
               ),
             ),
+            //Информация о нем
             SizedBox(height: 25),
             Text(
               specialist.info,
@@ -76,6 +84,7 @@ class MySpecList extends StatelessWidget {
                 fontFamily: Provider.of<SettingApp>(context).selectedFontFamily,
               ),
             ),
+            //Примеры работ
             Text(
             'Примеры работ мастера:',
               style: TextStyle(
@@ -91,7 +100,7 @@ class MySpecList extends StatelessWidget {
       ),
     );
   }
-
+//ветка фотографий работ
   Widget buildImageRow(BuildContext context) {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,

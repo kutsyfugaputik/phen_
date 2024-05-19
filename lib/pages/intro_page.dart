@@ -62,7 +62,7 @@ class _IntroPageState extends State<IntroPage> with SingleTickerProviderStateMix
                 builder: (context, child) {
                   return ColorFiltered(
                     colorFilter: ColorFilter.mode(
-                      Theme.of(context).colorScheme.primary, // Желаемый цвет
+                      Theme.of(context).colorScheme.primary,
                       BlendMode.modulate,
                     ),
                     child: Transform.rotate(

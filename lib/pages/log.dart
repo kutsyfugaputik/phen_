@@ -10,7 +10,7 @@ import '../models/user.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
-
+//для контроля над вводом клиента
   final usernameController = TextEditingController();
   final passwordController = TextEditingController();
 
@@ -22,13 +22,16 @@ class LoginPage extends StatelessWidget {
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+            children:
+            //иконка
+             [
               const SizedBox(height: 5),
               const Icon(
                 Icons.lock,
                 size: 50,
               ),
               const SizedBox(height: 10),
+              //вступительный текст
               Text(
                 'Добро пожаловать, войдите в свой аккаунт:',
                 style: TextStyle(
@@ -38,6 +41,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 textAlign: TextAlign.center,
               ),
+            //текстовые поля
               const SizedBox(height: 5),
               MyTextField(
                 controller: usernameController,
@@ -45,12 +49,14 @@ class LoginPage extends StatelessWidget {
                 obscureText: false,
               ),
               const SizedBox(height: 5),
+              
               MyTextField(
                 controller: passwordController,
                 hintText: 'Пароль',
                 obscureText: true,
               ),
               const SizedBox(height: 5),
+              //кнопка авторизации пользователя
               MyButton(
                 onTap: () async {
                   final user = await SettingApp.isar.users
@@ -109,6 +115,8 @@ class LoginPage extends StatelessWidget {
                 child: const Icon(Icons.arrow_forward),
               ),
               const SizedBox(height: 50),
+
+              // нижний текст и кнопка для перехода на регистрацию
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 5.0),
                 child: Row(
@@ -152,7 +160,7 @@ class LoginPage extends StatelessWidget {
                     onTap: () => Navigator.push(
                       context,
                       PageRouteBuilder(
-                        transitionDuration: Duration(milliseconds: 500),
+                        transitionDuration: const Duration(milliseconds: 500),
                         pageBuilder: (context, animation, secondaryAnimation) =>SignUpPage(),
                         transitionsBuilder: (context, animation, secondaryAnimation, child) {
                           return SlideTransition(
