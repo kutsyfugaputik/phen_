@@ -8,7 +8,7 @@
 ## Как запустить проект?
 1. Склонируйте репозиторий
   
-   git clone https://github.com/kutsyfugaputik/phen
+   git clone https://github.com/kutsyfugaputik/phen_
    cd <название директории с проектом>
    
 2. Установите зависимости
@@ -47,3 +47,6 @@ Flutter documentation [Электронный ресурс Интернет](htt
 Как добавить Isar в проект на Flutter [Электронный ресурс Интернет](https://habr.com/ru/articles/673068/ )
 
 Создание приложений для салонов красоты [Электронный ресурс Интернет](https://livetyping.com/ru/sozdanie-prilozheniya-dlya-salonov-krasoty)
+
+### Автор
+ Разработала проект: Гонтарева Юлия Александровна Контактные данные: dep2015tea@gmail.com
