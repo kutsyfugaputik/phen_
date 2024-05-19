@@ -7,15 +7,44 @@
 https://github.com/kutsyfugaputik/masha_bot_for_phen
 
 ## Как запустить проект?
+1. Склонируйте репозиторий
+  
+   git clone https://github.com/kutsyfugaputik/phen
+   cd <название директории с проектом>
+   
+2. Установите зависимости
+   Убедитесь, что у вас установлен Flutter. Если нет, скачайте и установите его с официального сайта [Flutter](https://flutter.dev).
 
+   Далее выполните команду для установки всех необходимых зависимостей:
+  
+   flutter pub get
+   
+3. Запустите проект
+   Убедитесь, что подключено устройство (эмулятор или физическое устройство) для запуска проекта.
+
+   Выполните команду для сборки и запуска приложения:
+  
+   flutter run
+   
+### Дополнительные шаги
+
+- Настройка эмулятора
+  Если у вас нет настроенного эмулятора, вы можете использовать Android Studio или Visual Studio Code для его настройки. Убедитесь, что эмулятор запущен перед выполнением команды flutter run.
+
+- Отладка
+  Если необходимо отлаживать приложение, вы можете использовать встроенные инструменты в IDE (Android Studio или Visual Studio Code) или запустить отладку через командную строку:
+ 
+  flutter run --debug
+  
+Эти шаги помогут вам быстро запустить проект Flutter из репозитория. Если возникнут вопросы или ошибки, обратитесь к документации Flutter или проверьте конфигурацию вашего окружения.
 
 ## Ссылки использующиеся во время разработки
-Кастомизация — что это такое и как создать индивидуальный продукт: [Электронный ресурс Интернет]. URL: https://zvonobot.ru/blog/kastomizatsiya-chto-eto-takoe-i-kak-sozdat-individualnyy-produkt 
+Кастомизация — что это такое и как создать индивидуальный продукт: [Электронный ресурс Интернет](https://zvonobot.ru/blog/kastomizatsiya-chto-eto-takoe-i-kak-sozdat-individualnyy-produkt)
 
-FULL Flutter Beginner Course • Programming Basics / Widgets / Navigation / User Input / UI [Электронный ресурс Интернет]. URL: https://www.youtube.com/@createdbykoko 
+FULL Flutter Beginner Course • Programming Basics / Widgets / Navigation / User Input / UI [Электронный ресурс Интернет](https://www.youtube.com/@createdbykoko)
 
-Flutter documentation [Электронный ресурс Интернет]. URL: https://docs.flutter.dev/ 
+Flutter documentation [Электронный ресурс Интернет](https://docs.flutter.dev/)
 
-Как добавить Isar в проект на Flutter [Электронный ресурс Интернет]. URL: https://habr.com/ru/articles/673068/ 
+Как добавить Isar в проект на Flutter [Электронный ресурс Интернет](https://habr.com/ru/articles/673068/ )
 
-Создание приложений для салонов красоты [Электронный ресурс Интернет]. URL: https://livetyping.com/ru/sozdanie-prilozheniya-dlya-salonov-krasoty
+Создание приложений для салонов красоты [Электронный ресурс Интернет](https://livetyping.com/ru/sozdanie-prilozheniya-dlya-salonov-krasoty)
